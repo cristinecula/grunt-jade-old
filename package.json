@@ -1,0 +1,44 @@
+{
+  "name": "grunt-jade-old",
+  "description": "Compile Jade Templates using the jade beta version",
+  "version": "0.0.1",
+  "homepage": "https://github.com/cristinecula/grunt-jade-old",
+  "author": {
+    "name": "Cristian Necula",
+    "email": "cristian.necula@vuzum.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cristinecula/grunt-jade-old.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cristinecula/grunt-jade-old/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/cristinecula/grunt-jade-old/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "jade": "0.35.0"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt": "~0.4.4"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.4"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
